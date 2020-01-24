@@ -1,0 +1,462 @@
+﻿The Project Gutenberg EBook of Tai Wan Tong Shih, by Heng  Lian
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Tai Wan Tong Shih
+       Tang Shan Guo Hai De Gu Shih
+
+Author: Heng  Lian
+
+Release Date: May 22, 2008 [EBook #25557]
+
+Language: Chinese
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK TAI WAN TONG SHIH ***
+
+
+
+
+Produced by Tin-Yu Wang
+
+
+
+
+序
+　　臺灣固無史也，荷人啓之，鄭氏作之，清代營之，開物成務，以立我丕基，至於今三百有餘年矣。而舊志誤謬，文采不彰，其所記載，僅隷有清一朝，荷人鄭氏之事，闕而弗錄，竟以島夷海寇視之。烏呼，此非舊史氏之罪歟！且府志重脩於乾隆二十九年，臺、鳳、彰、淡諸志雖有續脩，侷促一隅，無關全局。而書又已舊，苟欲以二三陳編，而知臺灣大勢，是猶以管窺天，以蠡測海，其被囿也亦巨矣。
+
+　　夫臺灣固海上之荒島爾，蓽路藍縷，以啓山林，至於今是賴。顧自海通以來，西力東漸，運會之趨，莫可阻遏。於是而有英人之役，有美船之役，有法軍之役，外交兵禍，相逼而來，而舊志不及載也。草澤羣雄，後先崛起，朱、林以下，輒啓兵戎，喋血山河，藉言恢復，而舊志亦不備載也。續以建省之議，開山撫番，析疆增吏，正經界，籌軍防，興土宜，勵教育，綱舉目張，百事俱作，而臺灣氣象一新矣。
+
+　　夫史者，民族之精神，而人羣之龜鑑也。代之盛衰，俗之文野，政之得失，物之盈虛，均於是乎在。故凡文化之國，未有不重其史者也。古人有言，國可滅，而史不可滅。是以郢書燕說，猶存其名，晉乘楚杌，語多可採。然則臺灣無史，豈非臺人之痛歟！
+
+　　顧脩史固難，脩臺之史更難，以今日而脩之尤難。何也？斷簡殘編，蒐羅匪易，郭公夏五，疑信相參，則徵文難。老成凋謝，莫可諮詢，巷議街譚，事多不實，則考獻難。重以改隷之際，兵馬倥傯，檔案俱失，私家收拾，半付祝融。則欲取金匱石室之書，以成風雨名山之業，而有所不可。然及今爲之，尚非甚難，若再經十年二十年而後脩之，則真有難爲者。是臺灣三百年來之史，將無以昭示後人，又豈非今日我輩之罪乎？
+
+　　橫不敏，昭告神明，發誓述作，兢兢業業，莫敢自遑。遂以十稔之間，撰成《臺灣通史》。爲紀四，志二十四，傳六十，凡八十有八篇，表圖附焉。起自隋代，終於割讓，縱橫上下，鉅細靡遺，而臺灣文獻於是乎在。
+
+　　洪維我祖宗，渡大海，入荒陬，以拓殖斯土，爲子孫萬年之業者，其功偉矣。追懷先德，眷顧前途，若涉深淵，彌自儆惕，烏乎念哉！凡我多士，及我友朋，惟仁惟孝，義勇奉公，以發揚種性，此則不佞之幟也。婆娑之洋，美麗之島，我先王先民之景命，實式憑之。
+
+　　大正七年秋八月朔日，臺南連橫雅堂自序於劍花室。
+
+捲一
+
+
+開闢紀
+　　臺灣固東番之地，越在南紀，中倚層巒，四面環海。荒古以來，不通人世，土番魋結，千百成羣，裸體束腰，射飛逐走，猶是游牧之代。以今石器考之，遠在五千年前，高山之番，實為原始；而文獻無徵，搢紳之士固難言者。按史秦始皇命徐福求海上三神山，去而不返；又曰：「自齊威宣、燕昭使人入海求蓬萊、方丈、瀛洲。此三神山者，其傳在渤海中，去人不遠，患且至，則船風引而去。蓋嘗有至者，諸僊人及不死之藥皆在焉。其物禽獸盡白，而黃金銀為宮闕。未至，望之如雲。及到，三神山反居水下。臨之，風輒引去，終莫能至雲。世主莫不甘心焉。及至秦始皇並天下，至海上，則方士言之，不可勝數。始皇自以為至海上而恐不及矣，乃使人齎童男女入海求之。船交海中，皆以風為解，曰未能至，望見之焉」。或曰，蓬萊、方丈為日本、琉球，而臺灣則瀛洲也；語雖鑿空，言頗近理。蓋以是時航術未精，又少探險海外，飄渺虛無，疑為僊境，陋矣。臺灣與日本、琉球鼎立東海，地理氣候大略相同，山川美秀，長春之花、不黃之草，非方士所謂僊境也歟？徐福有來臺灣，今雖無可確證，而五百男女之散處日本、琉球者，後嗣不絕；然則秦時男女或有往來臺灣者，未可知也。或曰，澎湖則古之方壺，而臺灣為岱員；於音實似。列子夏革曰：「渤海之東，不知幾億萬里，有大壑焉，實維無底之谷，其下無底，名曰歸虛。其中有五山焉：一曰岱輿，二曰員嶠，三曰方壺，四曰瀛洲，五曰蓬萊。其山高下周旋三萬里，其頂平處九千里，山之中相去七萬里，而五山之根無所連著，常隨潮波上下往還，不得暫峙焉。僊聖毒之，訴之於帝。帝怒，流於西極，失羣聖之所居。乃命禺疆使巨鰲十五舉首而戴之，迭為三番，六萬歲一交焉；五山始峙」。夫澎湖與臺灣密邇，巨浸隔之，黑流所經，風濤噴薄，瞬息萬狀，實維無底之谷，故名落漈；又有萬水朝東之險，而言「風輒引去」也。臺灣之山有高至海拔一萬三千六百餘尺、為東洋羣山之特出者，長年積雪，其狀如玉，故曰「望之如雲」也。或曰，臺灣為古之東鯷。後漢書東夷傳曰：「會稽海外有東鯷人，分為二十餘國。又有夷洲、澶洲。傳言秦始皇遣方士徐福將童男女數千人入海求蓬萊神仙，不得，徐福畏誅，遂止此洲。會稽東冶縣人有入海行、遭風流移至澶洲者，所在絕遠，不可往來」。然則臺灣之為瀛洲、為東鯷，澎湖之為方壺，其說固有可信，而澎湖之有居人，尤遠在秦、漢之際。或曰，楚滅越，越之子孫遷於閩，流落海上，或居於澎湖；是澎湖之與中國通也已久，而其見於載籍者則始於隋代爾。
+
+　　海防考曰：「隋開皇中，嘗遣虎賁陳稜略澎湖地。其嶼屹立巨浸中，環島三十有六，如排衙。居民以苫茅為廬舍，推年大者為長，畋漁為業。地宜牧牛羊，散食山谷間，各氂耳為記。稜至撫之，未久而去」。是為中國經略澎湖之始，而亦東入臺灣之機也。當是時，宇內既平，南北混一，聲靈所布，訖於南蠻。而澎湖地近福建，海道所經，朝發夕至。漳、泉沿海之黎民早已來往，耕漁並耦，不侵不釁，幾為熙皞之世。唯是書所言，頗有錯謬。陳稜之拜虎賁，事在大業三年，而此為開皇中，相去幾十餘載。豈為追述之辭？若其經略臺灣，則詳於隋書之琉球傳也。其傳曰：「流求國在海中，當建安郡東，水行五日而至。土多山洞。其王姓歡斯氏，名渴刺兜，不知其由來，有國世數也。彼土人呼之為「可老羊」，妻曰「多拔荼」。所居曰波羅檀洞，塹柵三重，環以流水，樹棘為藩。王所居舍，其大一十六間，琱刻禽獸，多鬥鏤樹，似橘而葉密，條纖如髮之下垂。國有四、五帥，統諸洞，洞有小王。往往有村，村有鳥了帥，並以善戰者為之，自相樹立，主一村之事。男女皆以白紵繩纏髮，從項後盤繞至額。其男子用鳥羽為冠，裝以珠貝，飾以赤毛，型制不同。婦人以羅紋白布為帽，其形正方；織鬥鏤皮並雜毛以為衣，製裁不一；綴毛垂螺為飾，雜色相間，下垂小貝，其聲如珮；綴璫施釧，懸珠於頸；織籐為笠，飾以毛羽。有刀弰、弓箭、劍鈹之屬。其處少鐵，刃皆薄小，多以骨角輔助之。編紵為甲，或用熊豹皮。王乘木獸，令左右輿之，而導從不過數十人。小王乘機，鏤為獸形。國人好相攻擊，人皆驍健善走，難死而耐創。諸洞各為部隊，不相救助。兩陣相當，勇者三、五人出前跳躁，交言相罵，因相擊射。如其不勝，一軍皆走，遣人致謝，即共和解，收取鬥死者聚食之，仍以髑髏將向王所。王即賜以冠，使為隊帥。無賦歛，有事均稅。用刑無常準，皆臨事科決。犯罪皆斷於鳥丫帥，不服，則上請於王，王令臣下共議定之。獄無枷鎖，唯用繩縛。決死刑以鐵錐，大如箸，長尺餘，鑽項殺之。輕罪用杖。俗無文字，望月盈虧以紀時節，候草木榮枯以為年歲。其人深目長鼻，頗類於胡，亦有小慧。無君臣上下之節、拜伏之禮。父子同床而寢。男子拔去髭鬚，身上有毛皆除去。婦人以墨鯨手，為蟲蛇之文。嫁娶以酒餚珠貝為聘。或男女相悅，便相匹耦。婦人產乳，必食子衣。產後以火自炙，令汗出，五日便平服。以木槽中暴海水為鹽，木汁為酢，釀米麴為酒，其味離薄。食皆用手。偶得異味，先進尊者。凡有宴會，執酒者必待呼名而後飲。上王酒者亦呼王名銜杯。其飲頗同突厥，歌呼蹋蹴，一人唱，衆皆和，音頗哀怨，扶女子上膊搖手而舞。死者氣將絕，轝至庭前，親朋哭泣相弔。浴其屍，以布帛纏之，裹以葦草，襯土而殯，上不起墳。子為父者，數月不食肉。其南境風俗少異，人有死者，邑里共食之。有熊、羆、豺、狼，尤多豬、雞；無牛、羊、驢、馬。厥田良沃。先以火燒，而引水灌。持一插，以石為刃，長尺餘，闊數寸，而墾之。土宜稻、梁、禾、黍、麻、赤豆、胡黑豆等。木有楓、栝、樟、松、梗、楠、枌、梓、竹、籐。果、藥同於江表。風土氣候與嶺南相類。俗祀山海之神，祭以酒餚。戰鬥殺人，便將所殺之人祭其神。或倚茂樹起小屋；或懸髑髏於樹上，以箭射之；或累石繫幡以為神主。王之所居，壁下多聚髑髏以為佳。人間門戶上必安獸頭骨角。大業元年，海師何蠻等言：「每春秋二時，天清風靜，東望依稀，似有煙霧之氣，亦不知幾千里」。三年，煬帝令羽騎尉朱寬入海訪異俗，何蠻言之，遂與蠻俱往。因到流求國，言不相通，掠一人而返。明年，帝復令寬慰撫之，不從，寬取其布甲而還。時倭國使來朝，見之曰：「此夷邪久國人所用也」。帝遣虎賁陳稜、朝請大夫張鎮周率兵，自義安浮海至高華嶼，又東行二日至𪓟鼊嶼，又一日便至流求。初，稜將南方諸國人從軍，有崑崙人頗解其語，遣人慰諭之，流求不從，拒逆官軍。稜擊走之，進至其都，焚其宮室，載軍實而還。自爾遂絕」。其陳稜傳曰：「大業三年拜虎賁中郎將，後三歲，與朝請大夫張鎮周發東陽兵萬餘人，自義安泛海擊流求國，月餘而至。流求人初見船艦，以為商旅，往往詣軍中貿易。稜率衆登岸，遣鎮周為先鋒。其主歡斯渴剌兜遣兵拒戰，鎮周頻擊破之。稜進至低沒檀洞，小王歡斯老模率兵拒戰，稜擊破之，斬老模。其日霧雨晦冥，將士皆懼。稜刑白馬祭海神，既而開霽。分為五軍，趨其都邑。渴剌兜率衆數千逆拒。稜又遣鎮周為先鋒，擊走之，乘勝逐北，至其柵。渴剌兜背柵而陣，稜盡銳擊之，從辰至未，苦鬥不息。渴剌兜自以軍疲，引入柵。稜遂填塹，攻破之，斬渴剌兜，獲其子島槌，虜男女數千而歸」。閩書亦曰：「福州之福盧山，當隋之時，曾掠琉球五千戶置此，尚有其裔」。是琉球者，臺灣之古名；今之琉球，古曰沖繩。蓉洲文稿曰：「臺灣、海中番島，考其源則琉球之餘種，自哈剌分支，近通日本，遠接呂宋，控南澳、阻銅山，以澎湖為外援」。哈喇之音似為渴剌，而波羅檀之地今在何處，或以為葫蘆墩，於音相近，或以為琅𤩝之部落。當隋之時，大安、大甲兩溪匯合一流，濁水以北，猶巨海也，波羅檀為海濱高原，王都於是，以固險也。故自隋書以至宋、元所言之琉球，多屬臺灣。
+
+　　先是大中七年八月，商人欽良暉歸自日本，與倭僧圓珍同船，為北風漂至琉球，見岸上數十人各執刀戈，良暉大驚，圓珍力祈不動尊，既而風回，乃至福建；是為日人發見臺灣之始，其後遂不往來也。
+
+　　唐貞觀間，馬來羣島洪水，不獲安處，各駕竹筏避難，漂泊而至臺灣。當是時，歡斯氏遭隋軍之後，國破民殘，勢窮蹙，馬人乃居於海澨，以殖其種。是為外族侵入臺灣之始。故臺灣小誌曰：「生番之語言，出自馬來者六之一，出自呂宋者十之一，迤北十七村多似斐利賓語，說者謂自南洋某島遷來」。其言近似。而統一之者為卑南王。王死之後，各社分立，以至今日。及唐中葉，施肩吾始率其族遷居澎湖。肩吾、汾水人，元和中舉進士，隱居不仕，有詩行世。其題澎湖一詩，鬼市、鹽水，足寫當時之景象。而終唐之世，竟無與臺灣交涉也。歷更五代，終及兩宋，中原板蕩，戰爭未息，漳、泉邊民漸來臺灣，而以北港為互市之口；故臺灣舊詩有「臺灣一名北港」之語。北港在雲林縣西，亦謂之「魍港」。當是時，馬人之在臺灣者族強勢大，遂攘土番而分據南北焉。淳熙之間，琉球酋長率數百輩，猝至泉之水澳、圍頭等村肆行殺掠。喜鐵器及匙筋，人閉戶則免，但刓其門鐶而去。擲以匙筋，則頫拾之。見鐵騎，爭刓其甲，駢首就戮而不知悔。臨敵用鏢鎗，繫繩十餘丈為操縱，蓋惜其鐵而不忍棄也。不駕舟楫，縛竹為筏，急則羣舁之，泅水而遁。與那國者，沖繩之一島也。昔有長耳國人渡來，掠人為害。與那國人謀防禦，造巨屨，投之海；長耳國人見而驚去。是為臺灣番族侵掠外洋之始，而此為馬人也。其黠者且乘艋舺渡大海至呂宋，以物交物，轉貿於高山之番，至今猶有存者。故宋史曰：「流求國在泉州之東，有海島曰澎湖，煙火相望。旁有毗舍耶國，語言不通，袒裸盱睢，殆非人類」。蒙古倔起，侵滅女真，金人泛海避亂，漂入臺灣。宋末零丁洋之敗，殘兵義士亦有至者。故各為部落，自耕自贍，同族相扶，以資捍衛。
+
+　　元世祖既宅區夏，餘威震於殊俗，南洋諸島悉入帡幪。至元十八年，元師伐日本，至九州海上，遇颶熸焉。諸將各擇堅艦遁，至澎湖及臺灣西岸，再遇風，乃歸福建。二十三年，整兵造艦，謀再舉，未發而止。二十八年秋九月，命海船副萬戶楊祥、合迷、張文虎並為都元帥，將兵徵琉求，置左右兩萬戶府，官屬皆從祥選闢。既又用福建吳志鬥言祥不可信，宜先招諭之。乃以祥為宣撫使，佩虎符，阮鑒兵部員外郎，志鬥禮部員外郎，並銀符，齎詔往琉求。明年，不得達琉求而還。夫元之謀伐琉球，蓋欲以扼日本也。故元史曰：「琉求在南海之東，漳、泉、興、福四州界內。澎湖諸島與琉求相對，亦素不通。天氣清明時，望之隱約，若煙若霧，其遠不知幾千里也。西、南、北岸皆水，至澎湖漸低，近琉求則謂之落漈。漈者，水趨下而不回也。凡西岸漁舟到澎湖已下，遇颶風發作，漂流落漈，回者百一。琉求，在外夷最小而險者也，漢、唐以來，史所不載；近代諸番市舶，不聞至其國者。世祖至元二十八年九月，海船副萬戶楊祥請以六千軍往降之；不聽命，則遂伐之。朝廷從其請。繼有書生吳志鬥者，上言生長福建，熟知海道利病，以為若欲收附，且就澎湖發船往諭，相水勢地利，然後興兵未晚也。冬十月，乃命楊祥充宣撫使，給金符，吳志鬥禮部員外郎，阮鑒兵部員外郎，並給銀符，往使琉求。詔曰：「收撫江南已十七年，海外諸番罔不臣屬，唯琉求邇在閩境，未曾歸附，議者請即加兵。朕維祖宗立法：凡不庭之國，先遣使招諭，來則安堵如故；否則必致徵討。今止其兵，命楊祥、阮鑒往諭汝國，果能慕義來朝，存爾國祀，保爾黎蔗；若不效順，自恃險阻，舟師奄及，恐貽後悔。爾其慎擇之」！二十九年三月二十九日，自汀路尾澳舟行。至是日巳時，海洋中正東，望見有山長而低者，約去五十里。祥稱是琉求國，鑒稱不知的否。祥乘小舟至低山下，以其人衆，不敢自上岸，命軍官劉閏等二百餘人，以小舟十一艘載軍器，領三嶼人陳輝者登岸。岸上人衆不諳三嶼人語，為其殺死者三人，遂還。四月二日至澎湖，祥責鑒、志鬥已到琉求文字，二人不從。明日，不見志鬥蹤跡，覓之無有也。先是志鬥嘗斥言祥生事要功，欲取富貴，其言誕妄難信。至是疑祥害之。祥顧稱志鬥初言琉球不可往，今祥已至琉求而還，志鬥懼罪逃去。志鬥妻子訴於官。有旨發祥、鑒還福州置對，後遇赦，不竟其事。成宗大德元年，福建省平章政事高興言：「今立省泉州，距琉求為近，可伺其消息。或宜招宜伐，不必它調兵力，興請就近試之」。九月，高興遣省都鎮撫張浩、福州新軍萬戶張進赴琉求國，擒生口一百三十餘人而還」。是為中國再略臺灣之事。當是時，澎湖居民日多，已有一千六百餘人，貿易至者歲常數十艘，為泉外府。至元中，乃設巡檢司，隸同安。澎湖之置吏行政自茲始。
+
+　　明初宇內未平，桀驁之徒聚為海寇，出入澎湖，以掠沿海。洪武五年，信國公湯和經略海上，議徙澎民於近郭，以絕邊患。廷議可之。二十年，遂廢巡檢，盡徙其人於漳、泉，而墟其地。自是澎湖遂為海寇巢窟。永樂中，太監鄭和舟下西洋，諸夷靡不貢獻，獨東番遠避不至。東番者，臺灣之番也。和惡之，率師入臺。東番降服。家貽一銅鈴，俾掛項間。其後人反寶之，富者至掇數枚。是為中國三略臺灣之事。初，和入臺，舟泊赤崁，取水大井。赤崁，番社名，為今臺南府治，其井尚存。而鳳山有三寶薑，居民食之疾瘳，雲為鄭和所遺。則和入臺且至內地，或謂在大岡山也。嘉靖四十二年，海寇林道乾亂，遁入臺灣。都督俞大猷追之至海上，知水道紆曲，時哨鹿耳門以歸，乃留偏師駐澎湖，尋罷之。居民又至，復設巡檢；已亦廢之。道乾既居臺灣，從者數百人，以兵劫土番，役之若奴。土番憤，議殺之。道乾知其謀，乃夜襲殺番，以血釁舟，埋巨金於打鼓山，逸之大年。
+
+　　萬曆二十年，日本伐朝鮮，沿海戒嚴。哨者謂有將侵淡水、雞籠之議，明廷以澎湖密邇，議設兵戍險。二十五年，始設游兵，春冬汛守。於是澎湖復為中國版土。四十五年，日人入龍門港，遂有長戍之令。初，日本足利氏之末葉，政亂民窮，薩摩、肥前諸國之氓相聚為盜，駕八幡船，侵掠中國沿海，深入閩、浙，而以臺灣為往來之地，居於打鼓山麓，名曰高砂，或曰高山國。高砂為日本播州海濱之地，白沙青松，其境相似，故名；或曰是番社之名也。當是時，日本徵夷大將軍豐臣秀吉既伐朝鮮，謀併臺灣。二十一年十一月，命使者原田孫七郎至呂宋，途次賜書高山國，勸其入貢。書曰：「夫日輪所照臨，雖至海岳、山川、草木、禽蟲，莫不受他恩光也。予際欲處慈母胞胎之時，有瑞夢。其夜日光滿室，室中如晝，諸人不勝驚愕。相士相聚占卜之，曰：「壯年輝德色於四海，發威光於萬方之奇異也」。故不出十年之中，而誅不義，立有功，平定海內。異邦遐陬嚮風者，忽出鄉國，遠泛滄海，冠蓋相望，結轍於道，爭先而服從矣。朝鮮國者，自往代於本朝有牛耳盟，久背其約。況又予欲徵大明之日，有反謀。此故命諸將伐之。國王出奔，國城付一炬也。聞信已急，大明出數十萬援兵，雖及戰鬥，終依不得其利，來敕使於本邦肥之前州而乞降。繇之築十個城營，收兵於朝鮮域中慶尚道，而履決真偽也。如南蠻琉球者，年年獻土宜，海陸通舟車，而仰予德光。其國未入幕中，不進庭，罪彌天。雖然不知四方來享，分為其地疏志，故原田氏奉使命而發船。若是不來朝，可令諸將攻伐之。生長萬物者日也，枯渴萬物者亦日也。思之不具」！是為日本經略臺灣之始。三十二年，山田長政赴暹羅，途次臺灣。於時日本人在臺日多，或採金於哆囉滿，或寄居小琉球。既復攻雞籠番，脅取其地。明朝憂之，乃增澎湖遊兵。秀吉死，德川家康嗣大將軍，戡平內亂，圖遠略，獎勵海外貿易，其船之出洋者給朱印狀以保護之。四十三年，村山等安受高砂渡航朱印狀。等安，肥前人，奉景教，家康委以經略臺灣之事。欲利用其教以收服土番，乃率其子來。家康以兵三千與之，欲取為附庸。然以無援，故不成。先是中山遣使於明曰，日本有取臺灣之議，明廷命警備沿海，及是而罷。
+
+　　天啟元年，海澄人顏思齊率其黨入居臺灣，鄭芝龍附之；事在其傳。於是漳、泉人至者日多，闢土田，建部落，以鎮撫土番，而番亦無猜焉。居無何，思齊死，衆無所立，乃奉芝龍為首。芝龍最少，才冠其羣，陸梁海上，官軍莫能抗。朝議招撫。以蔡善繼習芝龍，為書招之。芝龍感激歸命。及降，善繼坐戟門，令芝龍兄弟泥首，芝龍屈意下之，而一軍皆譁，竟叛去。復居臺灣，劫截商民，往來閩、粵之間。六年，泊於漳浦之白鎮，與官軍戰勝，遂趣中左所。中左所者，廈門也。督師俞咨皋與戰敗，又佚之。中左人開門納之。崇禎元年九月，率所部降於督師熊文燦，而其黨有留臺灣者。當是時，海寇曾一本、李魁奇先後據澎湖，以侵掠福建，嗣為官軍所滅。
+
+　　先是萬曆初，有葡萄牙船航東海，途過臺灣之北。自外望之，山嶽如畫，樹木青蔥，名曰科摩沙，譯言美麗。是為歐人發見臺灣之始。越三十餘年，而荷人乃至矣。荷蘭為歐洲強國，當明中葉，侵奪爪哇，殖民略地，以開東洋貿易之利。萬曆二十九年，荷人駕夾板，攜巨砲，薄粵東之香山澳，乞互市。粵吏難之，不敢聞於朝。當是時，中國閉關自守，不知海外大勢，而華人之移殖南洋者已數百萬，政府且欲禁之。海澄人李錦久居大年，習荷語。其友潘秀、郭震亦賈於南洋者。錦見荷酋麻韋郎曰：「若欲通商，無如漳州。漳州之南有澎湖，南北交通之要地也，誠能踞而守之，則互市不難」。麻韋郎曰：「守土官不許，奈何」？曰：「稅使高寀嗜金錢，無遠慮，若厚賄之，必奏聞。得天子一報可，而守土官誰敢抗哉」？錦乃為作書，一移寀及兵備守將，令秀、震齎往。守將陶拱聖大駭，亟白當事，繫秀於獄。震懼不敢入。而荷人俟之久，三十七年秋七月，駕二巨艦抵澎湖。時明兵已撤，遂登陸，伐木築屋，為久居計。錦潛入漳州，詭言被獲逃歸。守吏知其事，並下獄。遣使說荷人去澎，不諧。高寀亦令密使周之範往見荷人，說以三萬金餽寀，即許互市。荷人喜，與約。事垂成矣，總兵施德政偵其事，檄都司沈有容將兵往諭。有容負膽智，大聲論辯。荷人心折，曰：「我從未聞此言」。索還所餽金，以貨物贈寀。寀不答。福建巡撫徐學聚亦嚴禁國人下海，犯者誅。錦等旋論死，而荷人亦去澎湖。
+
+　　天啟二年，荷人再乞互市，不許，遂侵掠沿海。冬十月，荷將以船艦十七艘再至澎湖，據之。澎民數千謀拒守。荷人劫以兵，奪漁舟六百餘。築城媽宮，役死者千三百人。復於風櫃尾、金龜頭、嵵裏、白沙、漁翁諸島各造砲臺，以防守海道。初，荷人撤退澎湖之時，巡撫南居益上疏請修防備，未舉而荷人再至，復上疏請逐。天啟三年夏六月，以兵二千入鎮海港，破砲臺，進攻媽宮城。荷人恐，潛結海寇，以八船窺福建，出沒金、廈間。四年春正月，居益復遣總兵俞咨皋伐之，荷人大敗，禽其將高文律，斬之。八月，荷人請和，許之，與互市，乃退澎湖，而東入臺灣。先是，海澄人顏思齊居臺灣，鄭芝龍附之。既去，而荷人來，借地於土番。不可。紿之曰：「願得地如牛皮，多金不惜」。許之。乃剪皮為縷，周圍里許，築熱蘭遮城以居，駐兵二千八百人。附近土番多服焉。
+
+　　六年夏五月，西班牙政府自呂宋派遠徵軍，以朗將之，率戰艦入據雞籠，築山嘉魯城，駐兵防守。而臺之南北遂為荷、西二國所割據。當荷人入臺之前，日本人已先在此；以臺灣為南洋所經之地，往來頻繁。及荷人至，課丁稅；日人以先來之故，不從，法令亦不能強其奉行。於是始與臺灣領事有隙。爪哇總督嘉爾匾芝欲挫日本貿易，擢其子俾敕爾盧為臺灣領事，且命至長崎理交涉之案。俾敕爾盧蒞任未久，而濱田彌兵衛之事起。初，長崎代官末次平藏受幕府命，航海往福州，途次澎湖，為荷人所苦。歸大憤，欲雪恥，謀諸長崎市人濱田彌兵衛。彌兵衛素負勇俠，慨然許之。與其弟小左工明子新藏率市中壯士十二人，以崇禎八年春三月二十日至臺。同船華人某告荷人。荷人驗其船，搜奪兵器及楫，留之。牒報爪哇總督，請處分。彌兵衛淹留四月，不得歸，罄售貨物，久之無所得食，憤甚。六月二十九日，率衆三人至領事廳，預伏援兵，面求解纜。不聽。彌兵衛大怒，直前劫之，左右愕眙，伏兵盡起。有執兵入衛者，新藏揮刀斬之，諸皆畏懼莫敢動。乃拉領事歸旅館。領事告其屬，示媾意。若日人果有復仇之心，則以兵拒之。彌兵衛亦慮有變，乃與立約。曰：以領事之子及官一、荷人三為質，而日本亦以末次平藏之姪及五人交質。曰：荷蘭領事須放前捕土番十一人及華人通譯，並歸其財產。曰：應以相抵之物贈彌兵衛，以洗前恥。曰：日本人所失華絲二萬觔，須以八萬六千盾賠償之。凡約五日而成，七月初四日交質。明日，囚荷人於長崎。既而領事之子瘐死獄中。其後七年，始放荷人歸國。自是日人之勢力始震於臺灣。及鎖港之令行而後絕跡。
+
+　　二年，西人復入淡水，築羅岷古城，為犄角，駐領事，闢土田，以鎮撫土番。當是時，雞籠、淡水均為荒穢之地，華人亦少至者，草茀瘴毒，居者輒病死，故西人亦大費經營也。五年，西船遭颶至蛤仔難海岸，為土番劫殺，發兵討之。六年，西人始至大浪泵，南訖竹塹，謀殖民，而神甫輒遭番害，乃止。
+
+　　當荷人入臺之時，福建沈鈇上書巡撫南居益曰：「紅夷潛退大灣，蓄意叵測。征兵調兵，殊費公帑。昨僭陳移檄暹羅，委官宣諭，約為共逐。未知可允行否？澎湖雖僻居海外，實泉、漳門戶也。無論紅夷灣泊，即日本、西洋呂宋諸國亦所必經，地最險要，山尤平坦。南有港門，直通西洋，紅夷築城據之。北有港門，名鎮海港，官兵渡澎居之。中間一澳，從南港門而入，名曰暗澳，可泊舟數百隻。四圍山地，可開作園，栽種黍稷瓜果，牧養牛羊牲畜，未可遽墾為田，以山多頑土，無泉可灌也。今欲使紅夷不敢居住澎湖，諸國不得往來澎湖，其策有六：一曰專設游擊一員，鎮守湖內；二曰招募精兵二千餘名，環守湖外；三曰造大船，製火器，備用防守；四曰招集兵民，開墾山蕩，以助糧食；五曰建設公署營房，以妥官兵；六曰開通東西洋呂宋商船，以備緩急。此六議似當斟酌舉行者。夫澎湖險地，什倍南澳，地在海島，夙盜藪也。萬曆初年，撫臺劉凝齋公祖移會廣東制臺，題設副總兵坐鎮於中，抵今兵民完聚，田土開闢，屹為海邦重鎮，俾夷不敢窺伺，漳、潮賴以安枕，信明驗矣。今澎湖可倣而行之；請設游擊一員，坐鎮湖內，仍設左右翼把總哨官，為之輔佐，擇閩中慣歷風濤、諳練水路者充之；無事則演藝守汛，有事則料敵出奇，俾諸夷不得復窺中土。並議久任責成，凡兵之進退、糧之出入，咸游擊是賴，三載加銜，六載成勣，特陞大將。每歲或委廉幹佐貳，不時查點。如兵士有虛捏、月糧有剋減，參處查究，追出銀兩以充兵餉；庶知勸懲，永奠沃壤。殆與南澳一鎮，並為閩中屏翰矣。此議設游擊之策一也。夫有官守，必有兵戍。戍守哨探之兵，非二千餘名不可。每名月糧九錢，此定例也。其糧餉或出自漳、泉二府，或支自布政司庫，原有定議。沿海捕魚之民，慎擇以充之。或撥出洋遠探若干名，遇賊則攻擊之；或撥港內守城若干名，有警則應援之。游擊標下親兵與把總哨官人役，各自另設，不許占用水陸戍兵一人，不許虛冒戍兵月糧一分。其月糧按季開支。該道委海防館照名數鑿鑿包封，逐名唱給，不許將官總哨代領，以防剋減；尤不許防館吏書需索常例，以奪兵食。此游兵營堡宿弊，亟宜申明禁革之。凡汛地之守探，具數總報院道，以便查考。夷情之緩急，飛報院道防館，以便調度。一或誤事，自有軍法。庶水陸並進，犬牙相制；澎島一帶，可保無虞。此議戍兵之策二也。夫各寨游船，每板薄釘稀，委官製造，價銀十不給半，一遇海濤，便自潰裂，安可出戰？今宜令駕船者領價監造。每船歷幾汛方許修理，載幾汛方許改拆，而拆造僅給半價，則造船駕船均出一手，或不敢以敝漏之舟，自試蛟龍之窟耳。若火藥，尤紅夷所懼者。中左所火攻，已破其膽。火舟四集，自爾宵遁，則火舟當多備明甚。而大銃大船尤不可少者。宜造大船十餘隻，安置大銃十餘門，布列港口，俟賊至夾攻之。夷酋憚我長技，不惟不敢侵我疆土，且遠遁無敢再出矣。此議造船火器之策三也。澎湖山地，雖雲頑土，不堪墾田，而遍度膏腴之區，或可播種禾穀者。即黍、稷、麻豆、甘蔗、果木，均可充兵民口食之需。須廣招同安、海澄濱海黎庶乏田園可耕者，多四、五百人，少亦二、三百人，俾挈犁鋤種子以往。就居撥地，聽其墾種。每人量給二、三十畝，仍帶妻子，方成家業。並畜牛羊，捕釣魚類，少資糊口。仍禁游擊總哨各官，不許索租粒食。各戍兵下班之日，有能用力種植者亦聽之。明示十年以內，決不抽稅。俟十年以後，田園果熟，酌量每畝抽銀二、三分，以為犒賞官兵之費用。務使民兵相安，永遠樂業。此議招民開墾園地之策四也。夫官既守海，必有公廨居之。戍兵、寓民，亦須藉營房、寮舍為藏身計。今議蓋游擊府公署，或在鎮海港口，或在娘媽宮前，當查舊基擴充之。標兵量撥百名，環列左右。仍設倉廒數間，為貯糧之所。擇寬廣為較場，以備操練。而暗澳口相對二銃城及東北面大中墩，各量置營舍，以為守禦，方免各兵暴露。船兵營兵輪流撥用，少均勞逸。即招募種植民居，就今自蓋房舍，或官量給房價，咸附兵營居住，相依為命，守望相助。此議設官廨、兵營之策五也。夫澎湖大灣上下，官兵船隻把港，則番船不許出入，紅夷不許互市，無待言者。然泉、漳二郡商民，販東西兩洋，以代農賈之利，比比然也。自紅夷肆掠，洋船不通，海禁日嚴，民生憔悴。一夥豪右姦民，倚藉勢官，結納游總官兵，或假給東粵高州、閩省福州及蘇、杭買貨文引，載貨物出外海，徑往交趾、日本、呂宋等國買賣覓利。中以硝磺器械違禁，接濟更多，不但米糧飲食也。禁愈急而豪右出沒愈神，法愈嚴而衙役賣放更飽。且恐此輩營生無路，東奔西竄，如李旦、黃明佐之儔仍走夷鄉，代為畫策，更可慮也。故不如俟澎湖島設兵鎮後，紅夷息肩，暫復舊例，聽洋商明給文引，往販東西二洋。經過澎湖，赴游府驗引放行，不許需索阻滯。回船之日，若有夷人在船，即拿送上司，以姦細論。庶可生意飽商民之腹，亦可以夷增中國之利。俟澎湖設官建城之後，可徐議為之。此議通商便民之策六也。以上迂議六款，似可為澎湖善後之一助。而通商一款，亦聊備後日變通之微權。伏望憲臺不棄迂朽，仍會藩、臬、巡海、守巡司道洎總兵、副、參等衙門。面議停妥，一面題請，一面舉行。非但澎湖一島堪與南澳並稱重鎮，而八閩士民永有攸賴矣」。居益不從。
+
+　　八年，給事中何楷奏陳靖海之策，其言曰：「今欲靖寇氛，非墟其窟不可。其窟維何？臺灣是也。臺灣在澎湖島外，距漳、泉止兩日夜程，地廣而腴。初，貧民至其地，窺漁鹽之利，後見兵威不及，往往聚而為盜。近則紅毛築城其中，與姦民互市，屹然一大部落。墟之之計，非可干戈從事，必嚴通海之禁，俾紅毛無從謀利，姦民無從得食，出兵四犯，我乘其虛而擊之，可大得志。紅毛舍此而去，然後海氛可靖也」。不聽。
+
+　　十年，荷人犯粵東，乞互市，不許，歸而整理臺灣。先是東印度公司經營爪哇，及據臺灣，更增勢力。數年之間，地利日闢。厥土黑壤，一歲三熟。而華人來者日多，凡有一萬五、六千人，以與中國、日本互市。守吏俸祿薄，不足用，亦各營商業，博私利。於是荷人商務冠於東洋。然課稅繁重。制王田，募民耕之，計田以甲，每丁徵稅四盾。領臺之初，歲收三千一百盾，其後增至三萬三千七百盾。蓋移殖者衆，而歲入亦巨也。
+
+　　十二年，東印度公司派員來臺，視行政。六月，荷將郎必即里哥率夾板犯閩浙，閩撫鄒維璉拜鄭芝龍為將，破之。自是不敢窺閩海。
+
+　　十三年，荷人以西人之據北鄙也，上書爪哇總督，欲發兵逐之。而西人方與葡萄牙合，謀奪其海權。然荷人國力方盛。夏五月，臺灣領事波宇烈士致書西人，請撤退，曰：「餘不忍生民罹禍，女其速舉城降」。西領事昂薩路復曰：「城固在也，女其來取」！八月，荷人以戰艦攻雞籠，不勝。已而呂宋有事，裁戍兵，荷人乘勢攻之。翌年春三月，又以兵五百伐淡水。西人戰不利，閉城守，久而援絕。九月初四日，乃棄城走。凡西人據臺十六年，而為荷人所逐。
+
+　　弘光元年，臺灣領事集歸化土番之長老，設評議會，以布自治之制。分番社為南、北二路，立村長，理民政，奉領事約束。每年三月初八日開於北路，四月初四日開於南路。其時歸化番社，曰新港，曰目加溜灣，曰蕭壟，曰麻荳，曰大穆降，曰大傑顛。每年五月初二日，主計官集公所，召商贌社，謂之社商。凡番耕獵之物悉畀之，而與以日用之物。其令嚴密，番莫敢犯。當是時，土地初闢，森林未伐，麋鹿之屬滿山谷，獵者領照納稅，其皮折餉，售於日本，肉則為脯。荷人以牧畜之利，南北二路設牛頭司，放牧生息，千百成羣。犢大，設欄禽之，以耕以輓。
+
+　　永曆二年。荷人始設耶穌教堂於新港社，入教者已二千餘人。各社設小學，每學三十人，課以荷語、荷文及新舊約。牧師嘉濟宇士又以番語譯耶教問答及摩西十誡授番童，拔其畢業者為教習。於是番人多習羅馬字，能作書。削鵝管略尖斜，註墨於中，揮寫甚速，凡契券公文均用之。三年，五學學生凡六百餘名。荷人又與番婦婚，教化之力日進。
+
+　　十年，荷人復築城赤崁，背山面海，置巨砲，增戍兵，與熱蘭遮城相犄角。華人移住雖多，終為所苦，遂進而謀獨立。十一年，甲螺郭懷一集同志，欲逐荷人，事洩被戮。懷一在臺開墾，家富尚義，多結納，因憤荷人之虐，思殲滅之。九月朔，集其黨，醉以酒，激之曰：「諸君為紅毛所虐，不久皆相率而死。然死等耳，計不如一戰。戰而勝，臺灣我有也。否則亦一死。唯諸君圖之」！衆皆憤激欲動。初七夜伏兵於外，放火焚市街，居民大擾，屠荷人，乘勢迫城。城兵少，不足守，急報熱蘭遮。荷將富爾馬率兵一百二十名來援，擊退之。又集歸附土番，合兵進擊，大戰於大湖，郭軍又敗，死者約四千。是役華人誅夷者千數百人。
+
+　　懷一之謀既挫，數年無事。及聞延平郡王鄭成功威震東南，荷人恐，增兵備。而成功以中原多故，未遑徵討。金陵敗後，窮蹙兩島，乃稍稍議遷。荷人亦大戒嚴，輒捕華人之富家為質，遇有嫌疑，即囚之，或殺之。華人含恨，遂洶洶欲動。十四年，臺灣領事鄂易度請援於印度公司。命爪哇派艦十二，運兵來守。於是臺灣戍兵計有三千五百人。艦將以為無恐，移書廈門，詰成功曰：「若欲戰乎？抑欲和乎」？成功答曰：「餘不欲戰也」。而臺灣領事終不釋。荷蘭評議會謂其多事，召歸兵艦。艦長既還，遂劾鄂易度畏怖，將召歸，以郭冷谷代之。未至而鄭師來伐。
+
+　　十五年，成功在兩島，地蹙軍孤，議取臺灣。適荷蘭甲螺何斌負債走廈，盛陳沃野千里，為天府之國，且言可取狀。成功覽其圖嘆曰：「此亦海外之扶餘也」！召諸部計議。吳豪對曰：「藩主以進取臺灣下問，豪聞其水路險惡，砲臺堅利，縱有奇謀，亦無所用，不如勿取」。成功曰：「此常俗之見，不足用於今日」。黃廷曰：「果如吳豪之言，是以兵與敵也。勿取為便」。成功又曰：「此亦常見爾」。馬信曰：「藩主所慮者，以諸島難以久拒清人也。夫欲壯其枝葉，必先固其根本，此萬全之計。今乘將士閒暇，不如先統一旅，往視其地，可取則取，否則作為後圖，亦未為晚」。而諸將終以險遠為難。唯楊朝棟力陳可取。成功意銳，捩舵束甲，率兵二萬五千，三月泊澎湖，令陳廣、楊祖、林福、張在守之。狥曰：「本藩矢志恢復，念切中興。曩者出師北討，未奏膚功，故率我將士，冒波濤，欲闢不服之地，暫寄軍旅，養晦待時。非敢貪戀海外，苟延安樂也。唯天唯祖宗之靈，其克相餘」！至鹿耳門，則水驟漲丈餘，大小戰艦啣尾而渡，縱橫畢入。荷人大驚，以為自天而下。引兵登陸，克赤崁城。荷人退保熱蘭遮，以兵二百四十擊鄭師。鄭師四千繞城戰，荷軍大敗，亡一隊長。而鄭艦亦擊沉荷艦，餘悉遁。荷艦摩阿利走報爪哇，阻風五十三日始達。鄭師攻城不下。四月二十六日，成功命使者以書告曰：「執事率數百之衆，困守城中，何足以抗我軍？而餘尤怪執事之不智也。夫天下之人固不樂死於非命，餘之數告執事者，蓋為貴國人民之性命，不忍陷之瘡痍爾。今再命使者前往致意，願執事熟思之。執事若知不敵，獻城降，則餘當以誠意相待。否則我軍攻城，而執事始揭白旗，則餘亦止戰，以待後命。我軍入城之時，餘嚴飭將士，秋毫無犯，一聽貴國人民之去。若有願留者，餘亦保衛之，與華人同。夫戰敗而和，古有明訓；臨事不斷，智者所譏。貴國人民遠渡重洋，經營臺島，至勢不得已而謀自衛之道，固餘之所壯也。然臺灣者，中國之土地也，久為貴國所踞。今餘既來索，則地當歸我，珍瑤不急之物悉聽而歸。若執事不聽，可揭紅旗請戰，餘亦立馬以觀，毋游移而不決也。生死之權，在餘掌中，見機而作，不俟終日。唯執事圖之」！鄂易度復書不從。其明日果樹紅旗，聚男子於城中，毀市街。鄭師攻之不克，乃築長圍以困之，出略平野。於是多殺荷人，報宿怨也。鄭師捕其商人羅谷具，令入城勸降。荷人不從。又捕其民五百，悉斬以狥。爪哇評議會既劾鄂易度，以郭冷谷代之；方二月而摩阿利至，始知鄭師伐臺，乃復鄂易度之職，派兵七百、船十艘馳援。郭冷谷既至臺灣，遠望紅旗，而港口又鄭艦雲集，懼嚮日本而去。既而爪哇援兵踵至，城兵亦乘勢出擊。鄭師力戰，荷軍又敗，失船二。乃召回雞籠、淡水戍兵，潛載婦孺逃歸，謀死守。於是鄭師暫息。會清使自福州來，約荷人先取金、廈，荷人從之，調軍艦五艘往，遭風破沒，餘艦又歸爪哇，而臺灣之兵力愈薄。當鄭師之按兵也，有華人自城中出，請急攻，陷其南隅。荷人恐。成功又告之，乃降。十二月初三日，率殘兵千人而去，而臺灣復為中國有矣。是役也，陷圍七月，荷兵死者千六百人。自天啟四年，至永曆十五年，荷蘭據有臺灣凡三十八年，而為成功所逐。於是鄭成功之威名震乎寰宇。
+
+　　連橫曰：臺灣之名，始於何時，志乘不詳，稱謂互異。我民族生斯長斯，聚族於斯，而不知臺灣之名義，毋亦數典而忘其祖歟？餘嘗考之史籍，驗之地望，隋、唐之際，以及宋、元，皆稱琉球。明人不察，乃呼東番。故「鳳山縣誌」曰：「或元以前，此地與澎湖共為一國，而同名琉球」。「臺灣小誌」亦曰：「閩人初呼臺灣為小琉球，而稱沖繩為大琉球」。稱臺灣為小琉球，不知其何所據？「文獻通考」謂琉球在泉州之東，有島曰澎湖，水行五日而至，旁為毗舍耶。「臺海使槎錄」謂毗舍耶則指臺灣，非也。毗舍耶為呂宋羣島之一，密邇臺灣，其名猶存，故曰其旁也。而舊時之稱者曰北港。「方輿紀略」曰：「澎湖為漳、泉門戶，而北港即澎湖之唇齒。失北港則唇亡齒寒，不特澎湖可慮，即漳、泉亦可憂也。北港在澎湖東南，亦謂之臺灣」。按北港一名「魍港」，即今之「笨港」，地在雲林縣西，曩為海舶出入之口，而往來者遂以北港名臺灣也。「臺灣縣誌」曰：「荷蘭入北港，築城以居，因稱臺灣」。然臺灣之名果始於荷人否？志稱荷蘭設市於北，築磚城，制若崇臺。海濱沙環水曲曰灣，又泊舟處概謂之灣。此臺灣所由名也。如志所言，拘泥文字，以為附會之說，臺灣果出荷人，則荷人著書當用其名，何以又稱為小琉球耶？「蓉洲文稿」曰：「萬曆間，海寇顏思齊踞有其地，始稱臺灣」。思齊踞臺早於荷人三年，若徵此說，則臺灣非出於荷人也明矣。然「蓉洲」之說亦有未確者。「瀛壖百詠序」曰：「明季周嬰「遠遊篇」載東番一篇，稱其地為臺員，蓋閩音之訛也」。臺灣之名入中國始於此。據是則土番之時，閩人已呼東番為臺灣矣。周嬰，閩之莆田人。當明中葉，漳泉、人已有入臺僑住者，一葦可航，聞見較確。或曰：臺灣原名「埋冤」，為漳、泉人所號。明代漳、泉人入臺者，每為天氣所虐，居者輒病死，不得歸，故以埋冤名之，志慘也。其後以「埋冤」為不祥，乃改今名。是亦有說。延平入處，建號東都。經立，改名東寧。是則我民族所肇造，而保守勿替者。然則我臺人當溯其本，右啟後人，以毋忘蓽路藍縷之功也。
+
+
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Tai Wan Tong Shih, by Heng  Lian
+
+*** END OF THIS PROJECT GUTENBERG EBOOK TAI WAN TONG SHIH ***
+
+***** This file should be named 25557-0.txt or 25557-0.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/2/5/5/5/25557/
+
+Produced by Tin-Yu Wang
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

@@ -38,34 +38,35 @@ def parse_line(line):
     parsed = {}
     line = line.rstrip('/')
     line = line.split('/')
-    trans = line[1]
-    line[0].rstrip(']')
+    english = line[1]
     char_and_pinyin = line[0].split('[')
-    character = char_and_pinyin[0].rstrip(' ')
+    characters = char_and_pinyin[0]
     pinyin = char_and_pinyin[1]
-    parsed['char'] = character
+    pinyin = pinyin.rstrip()
+    pinyin = pinyin.rstrip("]")
+    print(pinyin)
+    parsed['characters'] = characters
     parsed['pinyin'] = pinyin
-    parsed['trans'] = trans
+    parsed['english'] = english
     list_of_dicts.append(parsed)
 
 def find_hsk_level(x):
-    if x['char'] in hsk1:
+    if x['characters'] in hsk1:
         x['hsk'] = 1
-    elif x['char'] in hsk2:
+    elif x['characters'] in hsk2:
         x['hsk'] = 2
-    elif x['char'] in hsk3:
+    elif x['characters'] in hsk3:
         x['hsk'] = 3
-    elif x['char'] in hsk4:
+    elif x['characters'] in hsk4:
         x['hsk'] = 4
-    elif x['char'] in hsk5:
+    elif x['characters'] in hsk5:
         x['hsk'] = 5
-    elif x['char'] in hsk6:
+    elif x['characters'] in hsk6:
         x['hsk'] = 6
     else: 
         x['hsk'] = 0
         
 
-list_of_dicts = []
 
 #make each line into a dictionary
 for line in dict_lines:
