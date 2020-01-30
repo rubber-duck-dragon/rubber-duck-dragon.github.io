@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Word, List
+admin.site.register(Word)
+admin.site.register(List)
+
+

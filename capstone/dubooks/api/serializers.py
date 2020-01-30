@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Word, List, User
+from vocab.models import Word, List, User
 
 class WordSerializer(serializers.ModelSerializer):
     class Meta:
@@ -14,4 +14,4 @@ class ListSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ("id", "url", "username", "date_joined", "lists", "words")
+        fields = ("id", "username", "lists")

@@ -1,0 +1,22 @@
+{% csrf_token %}
+<div id="app">
+    <div>
+        <table style="width:100%">
+            <th>Remove</th>
+            <th>Chinese</th>
+            <th>Pinyin</th>
+            <th>English</th>
+            <th>HSK</th>
+            <tr v-for="word in list" :key="word.id">
+                <td><checkbox></checkbox></td>
+                <td>[[ word.simplified ]]</td>
+                <td>[[ word.traditional ]]</td>
+                <td>[[ word.pinyin ]]</td>
+                <td>[[ word.english ]]</td>
+                <td>[[ word.hsk ]]</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue"></script>

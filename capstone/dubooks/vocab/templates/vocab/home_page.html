@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<div>
+    <select v-model="newList.creator">
+        <option v-for="user in users" :value="user.id">[[ user.username ]]</option>
+    </select><br>
+    <input type="text" v-model="newList.title" placeholder="title"><br>
+    <textarea v-model="createList.input"></textarea>
+    <form method="post">
+        {% csrf_token %}
+        <p>paste text here</p>
+        <input type="text" name="input">
+        <button type="submit" name="parse_text">Get Study Guide</button>
+    </form>
+
+</div>

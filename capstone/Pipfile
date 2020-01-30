@@ -9,6 +9,7 @@ verify_ssl = true
 django = "*"
 djangorestframework-simplejwt = "*"
 requests = "*"
+chop = "*"
 
 [requires]
 python_version = "3.6"
