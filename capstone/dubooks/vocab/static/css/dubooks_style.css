@@ -12,37 +12,122 @@
     box-sizing: border-box;
 }
 
-.vocab-list {
-    display: flex;
-    flex-direction: column;
+
+.title, .subtitle {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
-.headers {
+
+table {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: .8rem;
+    margin: 0.5rem;
+    line-height: 1.5;
+    border-bottom: 1px solid #d0d0d0;
+    flex: 1 1 auto;
+  }
+
+html {
+    box-sizing: border-box;
+}
+
+th {
+    font-weight: 400;
+    background-color: var(--clr-primary);
     color: var(--clr-light);
-    background-color: var(--clr-primary)
-}
-
-.headers, .list-item {
-    display: flex;
-    flex-direction: row;
-    align-items: space-evenly;
-}
-
-.cell {
+    border: 2px solid var(--clr-primary);
     padding: .5rem;
-    flex-grow: 1;
 }
-#english, #english-header {
+
+th > td {
+    justify-content: center;
+}
+  
+tr {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+td {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0.5em;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0px;
+    white-space: nowrap;
+    border-bottom: 1px solid #d0d0d0;
+}
+.simplified, .traditional {
+    word-break: keep-all
+}
+.english {
     flex-grow: 2;
 }
+.remove {
+    align-items: center;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+  
+tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.chinese-title {
+    font-family: "Ma Shan Zheng", cursive;
+}
+
 body {
-    margin: 0;
-    font-family: "Work Sans", sans-serif;
+    display: flex;
+    font-family: "Noto Sans SC", sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
-    background-color: white;
-    color: var(--clr-primary);
-    max-width: 760px;
+    /* color: var(--clr-primary);
     margin: auto;
+    padding: 4rem; */
+    background-image: url("rice_terrace.jpg");
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#app {
+    background: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    border: 2px #f2f2f2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+button {
+    width: 200px;
+    margin: 20px;
 }
 
 span.custom-checkbox {
@@ -56,6 +141,11 @@ span.custom-checkbox {
     border-radius: 50%;
     transform: scale(1);
     transition: transform 200ms ease-in-out;
+
+}
+
+.button-panel {
+    width: 100%;
 }
 
 [type="checkbox"] {
@@ -72,3 +162,45 @@ span.custom-checkbox {
 [type="checkbox"]:checked + label {
     opacity: 0.5;
 }
+
+textarea {
+    width: 60%;
+    height: 200px;
+    resize: none;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+
+    .header, #app, footer {
+      margin: 18px auto;
+      width: 760px;
+    }
+  
+    .flex-nav {
+      display: flex;
+    }
+  
+    .flex-three-column {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+  
+    footer {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+  
+    .header, #app, footer {
+      width: 960px;
+    }
+
+    .flex-three-column {
+      display: nowrap;
+    }
+  
+  }

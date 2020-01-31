@@ -5,33 +5,52 @@
     <title>dúbooks</title>
     <link rel="stylesheet" href="{% static 'css/dubooks_style.css' %}">
     <link href="https://fonts.googleapis.com/css?family-Work+Sans:300,400,700,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Noto+Sans+SC&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
+    <div class="header">
+        <div class="title"><h1>Dubooks</h1><div class="chinese-title">读</div></div><div class="subtitle"><h4>Custom Study Guides for Reading Chinese</h4></div>
+    </div class="header">
 <div id="app">
-<div>
-    <!-- <input type="text" v-model="newList.title" placeholder="title"><br> -->
+    <!-- <input type="text" v-model="newListTitle" placeholder="title"><br> -->
         {% csrf_token %}
     <textarea v-model="input_text" type="text" name="input" placeholder="paste text here"></textarea>
+    <div class="button-panel">
+    <input type="checkbox" v-on:click.prevent="toggleShowTraditional" id="toggle-traditional">
+        <label for="toggle-traditional">
+            <span class="custom-checkbox"></span>
+        </label>
+        <p>Show traditional characters</p>
+
     <button v-on:click.prevent="getWords" name="parse_text">Get Study Guide</button>
-</div>
-<div class="vocab-list">
-    <table class="headers">
-        <th class="cell">Remove</th>
-        <th class="cell">Chinese</th>
-        <th class="cell">Pinyin</th>
-        <th class="cell" id="english-header">English</th>
-        <th class="cell">HSK</div>
-    <tr class="list-item" v-for="word in newList" :key="word.id">
-        <div class="cell" id="checkbox"><input type="checkbox" id="list_item"><label for="list_item"><span class="custom-checkbox"></span></label>   
-        </div>
-        <div class="cell" id="simplified">[[ word.simplified ]]</div>
-        <div class="cell" id="traditional">[[ word.traditional ]]</div>
-        <div class="cell" id="pinyin">[[ word.pinyin ]]</div>
-        <div class="cell" id="english">[[ word.english ]]</div>
-        <div class="cell" id="hsk">[[ word.hsk ]]</div>
-    </tr>
-    </table>
-</div>
+    </div>
+    <div class="vocab-list">
+        <table v-if="submitted">
+            <div class="table-header">
+                <th class="remove"></th>
+                <th class="simplified">简体</th>
+                <th class="traditional" v-if="showTraditional">繁体</th>
+                <th class="pinyin">Pinyin</th>
+                <th class="english">English</th>
+                <th class="hsk">HSK</th>
+            </div>
+        <tr v-for="word in newList" :key="word.id">
+            <td class="remove" id="checkbox">
+                <input type="checkbox" id="list_item">
+                    <label for="list_item">
+                        <span class="custom-checkbox"></span>
+                    </label>  
+            </td>
+            <td class="simplified">[[ word.simplified ]]</td>
+            <td class="traditional" v-if="showTraditional">[[ word.traditional ]]</td>
+            <td class="pinyin">[[ word.pinyin ]]</td>
+            <td class="english">[[ word.english ]]</td>
+            <td class="hsk">[[ word.hsk ]]</td>
+            </label>
+        </tr>
+        </table>
+    </div>
 </div>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/vue"></script>
@@ -43,10 +62,10 @@ let app = new Vue({
     data: {
         csrf_token: "",
         input_text: "",
-        // words: [],
-        // lists: [],
-        // users: [],
-        newList: []
+        submitted: false,
+        newList: [],
+        newListTitle: [],
+        showTraditional: false,
         },
     methods: {
         getWords() {
@@ -64,16 +83,26 @@ let app = new Vue({
             }).then(response => {
                 this.newList = response.data.data
                 console.log(response.data.data)
+                this.submitted = true
             });
     
         },
-        getUserList() {
-            axios({
-                method: "get",
-                url: "api/v1/users/"
-            }).then(response => this.users = response.data)
-            
+        toggleShowTraditional() {
+            this.showTraditional = !this.showTraditional
         },
+        saveList() {
+            axios({
+                method: "post",
+                url: ""
+            })
+        }
+        // getUserList() {
+        //     axios({
+        //         method: "get",
+        //         url: "api/v1/users/"
+        //     }).then(response => this.users = response.data)
+            
+        // },
         // createList() {
         //     axios({
         //         method: "post",

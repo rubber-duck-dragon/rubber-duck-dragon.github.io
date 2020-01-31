@@ -8,7 +8,7 @@ import json
 
 
 def tokenize(request):
-    # if request.method == 'POST' and 'parse_text' in request.POST:
+
         # tokenize the text
     
 
@@ -45,9 +45,12 @@ def tokenize(request):
         for tuple in list_of_tuples:
             if Word.objects.all().filter(simplified = tuple[0]).exists():
                 new_word = Word.objects.filter(simplified=tuple[0])
+
                 context = {
                     'word': new_word
                 }
+                if len(new_word) > 1:
+                    print("duplicate!")
                 for word in new_word:
                     new_list.append({
                         "simplified": word.simplified,
