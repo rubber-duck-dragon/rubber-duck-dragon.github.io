@@ -1,16 +1,23 @@
 import requests
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from chop.hmm import Tokenizer as HMMTokenizer
 from .models import List, Word
+import json
+
 
 
 def tokenize(request):
-    if request.method == 'POST' and 'parse_text' in request.POST:
+    # if request.method == 'POST' and 'parse_text' in request.POST:
         # tokenize the text
-        txt = request.POST['input']
-        from chop.mmseg import Tokenizer as MMSEGTokenizer
+    
 
+    if request.method == 'POST':
+        # txt = request.POST['input']
+        json.loads(request.body)
+        print("*"*100)
+        from chop.mmseg import Tokenizer as MMSEGTokenizer
+        txt = json.loads(request.body)["input_text"]
         frequency_list = {}
         high_frequency_list = {}
         stop_words = ['.', '"', "'", "`", "，", ",", "。", ":", ";", "?", "!", "(", ")", "*", "/", "@", "-", "_000_", "「", "」", "、"]
@@ -42,11 +49,19 @@ def tokenize(request):
                     'word': new_word
                 }
                 for word in new_word:
-                    new_list.append(word)
-                    
-        print(new_list)
+                    new_list.append({
+                        "simplified": word.simplified,
+                        "traditional": word.traditional,
+                        "pinyin": word.pinyin,
+                        "english": word.english,
+                        "hsk": word.hsk
+                    })
+               
+        
+            
 
-        # return HttpResponse(list_of_tuples)
-        return render(request, 'vocab/list_view.html', context)
+        return JsonResponse({"data": new_list})
+        
+        # return render(request, 'vocab/list_view.html', context)
     else:
         return render(request, 'vocab/home_page.html')

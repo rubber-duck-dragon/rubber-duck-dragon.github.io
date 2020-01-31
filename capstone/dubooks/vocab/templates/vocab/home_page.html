@@ -1,15 +1,104 @@
 <!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>dúbooks</title>
+    <link rel="stylesheet" href="{% static 'css/dubooks_style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family-Work+Sans:300,400,700,900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<div id="app">
 <div>
-    <select v-model="newList.creator">
-        <option v-for="user in users" :value="user.id">[[ user.username ]]</option>
-    </select><br>
-    <input type="text" v-model="newList.title" placeholder="title"><br>
-    <textarea v-model="createList.input"></textarea>
-    <form method="post">
+    <!-- <input type="text" v-model="newList.title" placeholder="title"><br> -->
         {% csrf_token %}
-        <p>paste text here</p>
-        <input type="text" name="input">
-        <button type="submit" name="parse_text">Get Study Guide</button>
-    </form>
-
+    <textarea v-model="input_text" type="text" name="input" placeholder="paste text here"></textarea>
+    <button v-on:click.prevent="getWords" name="parse_text">Get Study Guide</button>
 </div>
+<div class="vocab-list">
+    <table class="headers">
+        <th class="cell">Remove</th>
+        <th class="cell">Chinese</th>
+        <th class="cell">Pinyin</th>
+        <th class="cell" id="english-header">English</th>
+        <th class="cell">HSK</div>
+    <tr class="list-item" v-for="word in newList" :key="word.id">
+        <div class="cell" id="checkbox"><input type="checkbox" id="list_item"><label for="list_item"><span class="custom-checkbox"></span></label>   
+        </div>
+        <div class="cell" id="simplified">[[ word.simplified ]]</div>
+        <div class="cell" id="traditional">[[ word.traditional ]]</div>
+        <div class="cell" id="pinyin">[[ word.pinyin ]]</div>
+        <div class="cell" id="english">[[ word.english ]]</div>
+        <div class="cell" id="hsk">[[ word.hsk ]]</div>
+    </tr>
+    </table>
+</div>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue"></script>
+<script>
+
+let app = new Vue({
+    el: '#app',
+    delimiters: ['[[',']]'],
+    data: {
+        csrf_token: "",
+        input_text: "",
+        // words: [],
+        // lists: [],
+        // users: [],
+        newList: []
+        },
+    methods: {
+        getWords() {
+            console.log(this.csrf_token)
+            axios({
+                method: "post",
+                url: "/",
+                data: {
+                    "input_text": this.input_text,
+
+                },
+                headers: {
+                    "X-CSRFToken": this.csrf_token
+                }
+            }).then(response => {
+                this.newList = response.data.data
+                console.log(response.data.data)
+            });
+    
+        },
+        getUserList() {
+            axios({
+                method: "get",
+                url: "api/v1/users/"
+            }).then(response => this.users = response.data)
+            
+        },
+        // createList() {
+        //     axios({
+        //         method: "post",
+        //         url: "/api/v1/",
+        //         data: this.input,
+        //         headers: {
+        //             "X-CSRFToken": this.csrf_token
+        //             }
+
+        //         this.getWords
+        //     }).catch(error => {
+        //         let message = error.response.statusText;
+        //         for (let key in error.response.data) {
+        //             message += `\n${key}: $
+        //             {error.response.data[key]}`;
+        //         };
+        //         alert(message);
+        //     })
+        // }
+    },   
+
+    mounted: function() {
+        this.csrf_token = document.querySelector("input[name=csrfmiddlewaretoken]").value;
+    }
+})
+</script>
+</body>
+</html>
