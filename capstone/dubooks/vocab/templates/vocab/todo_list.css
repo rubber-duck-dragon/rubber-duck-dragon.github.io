@@ -159,11 +159,11 @@ form {
 .new-task-creator .create {
     color: var(--clr-primary);
 }
-
+/* 
 [type="checkbox"] {
     opacity: 0;
     position: absolute;
-}
+} */
 
 .task label {
     display: flex-inline;
@@ -176,7 +176,7 @@ form {
     margin-bottom: 1.25em;
 }
 
-.task::after {
+/* .task::after {
     content: "";
     position: absolute;
     right: 0;
@@ -185,8 +185,8 @@ form {
     bottom: -.5m;
     background: currentColor;
     opacity: 0.1;
-}
-span.custom-checkbox {
+} */
+/* span.custom-checkbox {
     --size: 0.75em;
     display: inline-block;
     width: var(--size);
@@ -202,9 +202,9 @@ span.custom-checkbox {
 .task:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
     transform: scale(1.2);
     color: var(--clr-primary);
-}
+} */
 
-[type="checkbox"]:checked + label .custom-checkbox {
+/* [type="checkbox"]:checked + label .custom-checkbox {
     background: var(--clr-primary);
     border-color: var(--clr-primary);
     box-shadow: inset 0 0 0px 2px white;
@@ -212,9 +212,9 @@ span.custom-checkbox {
 
 [type="checkbox"]:checked + label {
     opacity: 0.5;
-}
+} */
 
-.task label::after {
+/* .task label::after {
     content: "";
     left: 1.5em;
     right: 0;
@@ -230,7 +230,7 @@ span.custom-checkbox {
 [type="checkbox"]:checked + label {
     transform: scaleX(1);
     transform-origin: left;
-}
+} */
 
 .delete-stuff {
     display: flex;

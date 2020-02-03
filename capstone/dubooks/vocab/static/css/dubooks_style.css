@@ -1,5 +1,5 @@
 :root {
-    --clr-primary: rgb(54, 112, 199);
+    --clr-primary: #0099ff;
     --clr-light: #f4f4f4;
     --clr-dark: #333;
     --clr-warning: rgb(99, 36, 36);
@@ -12,23 +12,34 @@
     box-sizing: border-box;
 }
 
+.title {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+}
 
-.title, .subtitle {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0;
-    padding-bottom: 0;
+.subtitle { 
+    margin: auto;
+    padding-right: 200px;
+    text-align: right;
+    font-family: "Raleway", sans-serif;
+}
+
+tbody {
+    border-radius: 10px;;
 }
 
 table {
     display: flex;
     flex-flow: column nowrap;
     font-size: .8rem;
-    margin: 0.5rem;
+    margin: 0;
     line-height: 1.5;
     border-bottom: 1px solid #d0d0d0;
     flex: 1 1 auto;
-  }
+}
 
 html {
     box-sizing: border-box;
@@ -39,11 +50,20 @@ th {
     background-color: var(--clr-primary);
     color: var(--clr-light);
     border: 2px solid var(--clr-primary);
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 
-th > td {
-    justify-content: center;
+tr > th {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0.5em;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0px;
+    white-space: nowrap;
 }
   
 tr {
@@ -86,42 +106,49 @@ tr:nth-of-type(odd) {
 .header {
     background-color: var(--clr-primary);
     color: var(--clr-light);
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     flex-direction: row;
-    align-items: left;
     margin: auto;
-    border-radius: 10px;
-    padding: 30px;
+    
+    
 }
 
 .chinese-title {
     font-family: "Ma Shan Zheng", cursive;
+    font-size: 4rem;
+
 }
 
 body {
     display: flex;
     font-family: "Noto Sans SC", sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
     /* color: var(--clr-primary);
-    margin: auto;
     padding: 4rem; */
-    background-image: url("rice_terrace.jpg");
+    /* background-image: url("rice_terrace.jpg"); */
     align-items: center;
     flex-direction: column;
 }
 
 
 #app {
-    background: rgba(255, 255, 255, 0.8);
-    margin: auto;
-    border: 2px #f2f2f2;
-    padding: 30px;
+    /* background: rgba(255, 255, 255, 0.8); */
+    background-color: var(--clr-light);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px;
+    
     
 }
 
@@ -130,6 +157,27 @@ button {
     margin: 20px;
 }
 
+
+.button-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.traditional-toggle {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+/* [type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+} */
+
+
+
 span.custom-checkbox {
     --size: 0.75em;
     display: inline-block;
@@ -137,20 +185,15 @@ span.custom-checkbox {
     height: var(--size);
     margin-right: var(--size);
     cursor: pointer;
-    border: 2px solid currentColor;
+    border: 2px solid var(--clr-primary);
     border-radius: 50%;
     transform: scale(1);
     transition: transform 200ms ease-in-out;
-
 }
 
-.button-panel {
-    width: 100%;
-}
-
-[type="checkbox"] {
-    opacity: 0;
-    position: absolute;
+.list-item:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
+    transform: scale(1.2);
+    color: var(--clr-primary);
 }
 
 [type="checkbox"]:checked + label .custom-checkbox {
@@ -163,6 +206,51 @@ span.custom-checkbox {
     opacity: 0.5;
 }
 
+.list-item label::after {
+    content: "";
+    left: 1.5em;
+    right: 0;
+    top: 50%;
+    height: 3px;
+    background: var(--clr-primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 300mx ease-in-out;
+
+}
+
+.list-item::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 1px;
+    bottom: -.5m;
+    background: var(--clr-primary);
+    opacity: 0.1;
+}
+
+.list-item label {
+    display: flex-inline;
+    align-items: center;
+    position: relative;
+}
+
+.list-item:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
+    transform: scale(1.2);
+    color: var(--clr-primary);
+}
+
+.list-item {
+    position: relative;
+    margin-bottom: 1.25em;
+}
+
+[type="checkbox"]:checked + label {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 textarea {
     width: 60%;
     height: 200px;
@@ -173,34 +261,18 @@ textarea {
 @media (min-width: 768px) {
 
     .header, #app, footer {
-      margin: 18px auto;
-      width: 760px;
-    }
-  
-    .flex-nav {
-      display: flex;
-    }
-  
-    .flex-three-column {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-  
-  
-    footer {
-      display: block;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-  
-    .header, #app, footer {
-      width: 960px;
+      /* margin: 10px auto; */
+      width: 100%;
+      /* padding: 20px;
+      border-radius: 10px; */
     }
 
-    .flex-three-column {
-      display: nowrap;
-    }
+@media (min-width: 1024px) {
   
-  }
+    .header, #app, footer {
+      width: 100%;
+      /* margin: 10px auto; */
+      /* padding: 20px;
+      border-radius: 10px; */
+    }
+}
