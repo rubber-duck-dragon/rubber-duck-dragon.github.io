@@ -155,14 +155,28 @@ body {
 button {
     width: 200px;
     margin: 20px;
+    background-color: var(--clr-light);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid var(--clr-primary);
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
+button:active {
+    background-color: var(--clr-light);
+}
+
 .button-panel {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
+}
+
+.button-panel > button {
+    width: 100px;
 }
 
 .traditional-toggle {
@@ -243,7 +257,6 @@ span.custom-checkbox {
 
 .list-item {
     position: relative;
-    margin-bottom: 1.25em;
 }
 
 [type="checkbox"]:checked + label {
@@ -256,6 +269,12 @@ textarea {
     height: 200px;
     resize: none;
     margin: auto;
+}
+
+.bottom-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media (min-width: 768px) {

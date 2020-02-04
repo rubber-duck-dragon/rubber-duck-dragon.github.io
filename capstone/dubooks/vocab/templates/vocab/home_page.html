@@ -22,17 +22,22 @@
     <textarea v-model="input_text" type="text" name="input" placeholder="paste text here"></textarea>
 
     <div class="traditional-toggle">
-        <input type="checkbox" v-on:click.prevent="toggleShowTraditional" id="toggle-traditional"><label for="toggle-traditional">
+        <input type="checkbox" v-on:click.prevent="toggleShowTraditional" id="toggle-traditional" class="list-item"><label for="toggle-traditional">
             <span class="custom-checkbox"></span>
-        </label>
-            Show traditional characters<br>
+            Show traditional characters</label><br>
     </div>
 
-    <div class="button-panel"> 
-    <button v-on:click.prevent="getWords" name="parse_text">Get Study Guide</button>
+    <button v-on:click.prevent="getWords" v-if="submitted === false" name="parse_text">Get Study Guide</button>
+    <div class="button-panel" v-if="submitted"> 
+        <button @click.prevent="toggleSelection(1)">HSK 1</button>
+        <button @click.prevent="toggleSelection(2)">HSK 2</button>
+        <button @click.prevent="toggleSelection(3)">HSK 3</button>
+        <button @click.prevent="toggleSelection(4)">HSK 4</button>
+        <button @click.prevent="toggleSelection(5)">HSK 5</button>
+        <button @click.prevent="toggleSelection(6)">HSK 6</button>
     </div>
 
-    <table v-if="submitted">
+    <table v-show="submitted">
         <tr>
             <th class="remove"></th>
             <th class="simplified">简体</th>
@@ -41,24 +46,30 @@
             <th class="english">English</th>
             <th class="hsk">HSK</th>
         </tr>
-        <tr v-for="word in newList" :key="word.id">
-        <td class="remove" id="checkbox">
-            <input type="checkbox" id="list_item">
-                <label for="list_item">
-                    <span class="custom-checkbox"></span>
-                </label>  
-        </td>
-        <td class="simplified">[[ word.simplified ]]</td>
-        <td class="traditional" v-if="showTraditional">[[ word.traditional ]]</td>
-        <td class="pinyin">[[ word.pinyin ]]</td>
-        <td class="english">[[ word.english ]]</td>
-        <td class="hsk">[[ word.hsk ]]</td>
-        </label>
+        <tr v-for="word in newList" :key="word.id" class="list-item">
+            <td class="remove">
+                <input type="checkbox" v-bind:name="word.hsk" id="list-item" class="list-item" v-bind:word="word">
+                    <label for="list-item">
+                        <span class="custom-checkbox"></span>
+                    </label> 
+            </td>
+            <td class="simplified">[[ word.simplified ]]</td>
+            <td class="traditional" v-if="showTraditional">[[ word.traditional ]]</td>
+            <td class="pinyin">[[ word.pinyin ]]</td>
+            <td class="english">[[ word.english ]]</td>
+            <td class="hsk">[[ word.hsk ]]</td>
+        </tr>
     </table>
+    <div class="bottom-panel" v-if="submitted">
+        <button v:on-click.prevent="deleteSelected">Delete Selected</button>
+        <button v:on-click.prevent="saveList">Save</button>
+        <button v:on-click.prevent="printList">Print</button>
+    </div>
 </div>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/vue"></script>
 <script>
+
 
 let app = new Vue({
     el: '#app',
@@ -70,8 +81,10 @@ let app = new Vue({
         newList: [],
         newListTitle: [],
         showTraditional: false,
-        toDelete: []
+        selected: [];
+        allSelected: {1: false, 2: false, 3: false, 4: false, 5: false, 6: false},
         },
+
     methods: {
         getWords() {
             console.log(this.csrf_token)
@@ -92,21 +105,49 @@ let app = new Vue({
             });
     
         },
+
         toggleShowTraditional() {
             this.showTraditional = !this.showTraditional
         },
-        saveList() {
-            axios({
-                method: "post",
-                url: ""
-            })
+
+        toggleSelection(level) {
+            var items = document.getElementsByName(level);
+            console.log(items)
+            if (this.allSelected[level] === false) {
+                for (var i = 0; i < items.length; i++) {
+                    items[i].checked = true;
+                    this.allSelected[level] = true
+                    // console.log(this.allSelected[level])
+                } 
+            } else {
+                for (var i = 0; i < items.length; i++) {
+                    items[i].checked = false;
+                    this.allSelected[level] = false
+                    // console.log(this.allSelected[level])
+                }
+            }
         },
 
         deleteSelected() {
-            for (item in newList) {
-                if (item in newList)
+            var items = document.getElementsByClassName("list-item");
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].checked === true) {
+                    console.log(item)
+                }
             }
-        }
+        },
+    			
+
+        // saveList() {
+        //     axios({
+        //         method: "post",
+        //         url: ""
+        //     })
+        // },
+
+
+
+    
         // getUserList() {
         //     axios({
         //         method: "get",

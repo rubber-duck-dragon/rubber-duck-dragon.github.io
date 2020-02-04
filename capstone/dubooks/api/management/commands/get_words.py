@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand, CommandError
 from vocab.models import Word 
 
 class Command(BaseCommand):
+    #open the HSK files
     def handle(self, *args, **options):
         with open('hsk_l1.txt') as file:
             lines = file.read().split('\n')
@@ -61,6 +62,11 @@ class Command(BaseCommand):
             parsed['english'] = english
             list_of_dicts.append(parsed)
     
+        def remove_surnames():
+            for x in range(len(list_of_dicts)-1, -1, -1):
+                if "surname " in list_of_dicts[x]['english']:
+                    if list_of_dicts[x]['traditional'] == list_of_dicts[x+1]['traditional']:
+                        list_of_dicts.pop(x)
 
         def find_hsk_level(x):
             if x['simplified'] in hsk1:
@@ -80,10 +86,15 @@ class Command(BaseCommand):
                 
 
         list_of_dicts = []
+
         #make each line into a dictionary
         print("Parsing dictionary . . .")
         for line in dict_lines:
                 parse_line(line)
+
+        #remove entries for surnames from the data
+        print("Removing Surnames . . .")
+        remove_surnames()
 
         #add hsk level as a value to each dict
         print("Searching HSK . . .")

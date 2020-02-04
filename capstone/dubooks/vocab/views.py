@@ -8,14 +8,11 @@ import json
 
 
 def tokenize(request):
-
-        # tokenize the text
-    
+# tokenize the text
 
     if request.method == 'POST':
         # txt = request.POST['input']
         json.loads(request.body)
-        print("*"*100)
         from chop.mmseg import Tokenizer as MMSEGTokenizer
         txt = json.loads(request.body)["input_text"]
         frequency_list = {}
@@ -34,8 +31,15 @@ def tokenize(request):
                 frequency_list[word] += 1
         
         # get the most frequent words
+        if len(frequency_list) < 50:
+            minimum = 1
+        elif len(frequency_list) < 100:
+            minimum = 2
+        else:
+            minimum = 3
+
         for key in frequency_list:
-            if frequency_list[key] > 3:
+            if frequency_list[key] > minimum:
                 high_frequency_list[key] = frequency_list[key]
 
         list_of_tuples = sorted(high_frequency_list.items() , reverse=True, key=lambda x: x[1])
@@ -49,8 +53,10 @@ def tokenize(request):
                 context = {
                     'word': new_word
                 }
-                if len(new_word) > 1:
-                    print("duplicate!")
+                for word in new_word:
+                    if word.hsk == 0:
+                        word.hsk = ""
+
                 for word in new_word:
                     new_list.append({
                         "simplified": word.simplified,
