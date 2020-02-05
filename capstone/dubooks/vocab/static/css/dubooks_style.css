@@ -16,16 +16,21 @@
     font-size: 1rem;
     display: flex;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 18px;
+       
+}
+.chinese-title {
     font-family: "Ma Shan Zheng", cursive;
-    
+    font-size: 4rem;
+
 }
 
 .subtitle { 
     margin: auto;
     padding-right: 200px;
     text-align: right;
-    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
 }
 
 
@@ -105,7 +110,6 @@ tr:nth-of-type(odd) {
 .header {
     background-color: var(--clr-primary);
     color: var(--clr-light);
-    /* text-align: center; */
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
@@ -117,11 +121,6 @@ tr:nth-of-type(odd) {
     
 }
 
-.chinese-title {
-    font-family: "Ma Shan Zheng", cursive;
-    font-size: 4rem;
-
-}
 
 body {
     display: flex;
@@ -185,6 +184,9 @@ button {
     position: absolute;
 }
 
+.remove {
+    padding-left: 20px;
+}
 .active {
     background-color: var(--clr-light);
     color: var(--clr-primary);
@@ -210,22 +212,18 @@ span.custom-checkbox {
     transition: transform 200ms ease-in-out;
 }
 
-label:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
+/* label:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
     transform: scale(1.2);
     color: var(--clr-primary);
-}
+} */
 
-[type="checkbox"]:checked + label .custom-checkbox {
+label input:checked ~ .custom-checkbox {
     background: var(--clr-primary);
     border-color: var(--clr-primary);
     box-shadow: inset 0 0 0px 2px white;
 }
 
-[type="checkbox"]:checked + label {
-    opacity: 0.5;
-}
-
-.list-item label::after {
+/* label::after {
     content: "";
     left: 1.5em;
     right: 0;
@@ -235,7 +233,7 @@ label:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 300mx ease-in-out;
-}
+} */
 
 .list-item::after {
     content: "";
@@ -248,7 +246,7 @@ label:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
     opacity: 0.1;
 }
 
-.list-item label {
+label {
     display: flex-inline;
     align-items: center;
     position: relative;

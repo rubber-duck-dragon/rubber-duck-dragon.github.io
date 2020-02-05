@@ -13,7 +13,8 @@
 <body>
     <div class="header">
         <div class="title">
-            读<br>Dubooks</div>
+            <div class="chinese-title">读</div>
+            <br>Dúbooks</div>
         <div class="subtitle"><h2>Custom Study Guides for Reading Chinese</h2></div>
     </div class="header">
 <div id="app">
@@ -22,9 +23,11 @@
     <textarea v-model="input_text" type="text" name="input" placeholder="paste text here"></textarea>
 
     <div class="traditional-toggle">
-        <input type="checkbox" v-on:click.prevent="toggleShowTraditional" id="toggle-traditional"><label for="toggle-traditional">
+        <label>
+        <input type="checkbox" v-on:click.prevent="toggleShowTraditional">
             <span class="custom-checkbox"></span>
-            Show traditional characters</label><br>
+            Show traditional characters
+        </label>
     </div>
 
     <button v-on:click.prevent="getWords" v-if="submitted === false" name="parse_text">Get Study Guide</button>
@@ -50,19 +53,17 @@
         </tr>
         <tr v-for="word in newList" :key="word.id" class="list-item">
             <td class="remove">
-                <!-- <base-checkbox v-model="word.checked"></base-checkbox> -->
-                <input type="checkbox" v-bind:name="word.hsk" id="list-item" class="checkbox" value="word.id"
-                v-model="selectedWords">
-                    <label for="list-item">
-                        <span class="custom-checkbox"></span>
-                     
+                <label>
+                    <input type="checkbox" v-bind:name="word.hsk" v-model="word.checked">
+                    <span class="custom-checkbox"></span>
+                </label> 
             </td>
             <td class="simplified">[[ word.simplified ]]</td>
             <td class="traditional" v-if="showTraditional">[[ word.traditional ]]</td>
             <td class="pinyin">[[ word.pinyin ]]</td>
             <td class="english">[[ word.english ]]</td>
             <td class="hsk">[[ word.hsk ]]</td>
-            </label>
+            
         </tr>
     </table>
     <div class="bottom-panel" v-if="submitted">
@@ -75,21 +76,6 @@
 <script src="https://unpkg.com/vue"></script>
 <script>
 
-// Vue.component('base-checkbox' {
-//     model: {
-//         prop: 'checked',
-//         event: 'selectWord'
-//     },
-//     props: {
-//         checked: Boolean
-//     },
-//     template: `
-//         <input type="checkbox"
-//         class="custom-checkbox"
-//         v-bind:checked="checked"
-//         v-on:change="$emit('selectWord', $event.target.checked)"
-//         >`
-// }); 
 
 let app = new Vue({
     el: '#app',
@@ -131,27 +117,30 @@ let app = new Vue({
         },
 
         toggleSelection(level) {
-            var items = document.getElementsByName(level);
             if (this.allSelected[level] === false) {
-                for (var i = 0; i < items.length; i++) {
-                    items[i].checked = true;
+                this.newList.forEach(word => {
+                if (word.hsk === level) {
+                    word.checked = true;
                     this.allSelected[level] = true
-                    // console.log(this.allSelected[level])
-                } 
-            } else {
-                for (var i = 0; i < items.length; i++) {
-                    items[i].checked = false;
-                    this.allSelected[level] = false
-                    // console.log(this.allSelected[level])
                 }
+            })
+            } else {
+                this.newList.forEach(word => {
+                    if (word.hsk === level) {
+                        word.checked = false;
+                        this.allSelected[level] =false
+                    }
+                })
             }
         },
 
 
         deleteSelected() {
             console.log('delete!')
-            var items = document.getElementsByClassName("checkbox");
-            console.log(items)
+            this.newList = this.newList.filter(word => {
+                console.log(!word.checked) 
+                return !word.checked
+            })
             // for (var i = 0; i < items.length; i++) {
             //     if (items[i].checked === true) {
             //         console.log(item);
