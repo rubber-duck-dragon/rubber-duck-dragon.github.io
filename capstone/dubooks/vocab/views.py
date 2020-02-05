@@ -63,7 +63,8 @@ def tokenize(request):
                         "traditional": word.traditional,
                         "pinyin": word.pinyin,
                         "english": word.english,
-                        "hsk": word.hsk
+                        "hsk": word.hsk,
+                        "checked": False
                     })
                
         

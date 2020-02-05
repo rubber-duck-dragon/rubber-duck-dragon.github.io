@@ -16,7 +16,8 @@
     font-size: 1rem;
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: "Ma Shan Zheng", cursive;
     
 }
 
@@ -27,14 +28,12 @@
     font-family: "Raleway", sans-serif;
 }
 
-tbody {
-    border-radius: 10px;;
-}
 
 table {
     display: flex;
     flex-flow: column nowrap;
     font-size: .8rem;
+    width: 60%;
     margin: 0;
     line-height: 1.5;
     border-bottom: 1px solid #d0d0d0;
@@ -89,7 +88,7 @@ td {
     word-break: keep-all
 }
 .english {
-    flex-grow: 2;
+    flex-grow: 3;
 }
 .remove {
     align-items: center;
@@ -130,16 +129,12 @@ body {
     font-weight: 300;
     font-size: 1rem;
     margin: 0;
-    /* color: var(--clr-primary);
-    padding: 4rem; */
-    /* background-image: url("rice_terrace.jpg"); */
     align-items: center;
     flex-direction: column;
+    background: var(--clr-light);
 }
 
-
 #app {
-    /* background: rgba(255, 255, 255, 0.8); */
     background-color: var(--clr-light);
     padding-left: 50px;
     padding-right: 50px;
@@ -148,35 +143,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+    height: 100%;
 }
 
 button {
     width: 200px;
     margin: 20px;
-    background-color: var(--clr-light);
+    background-color: var(--clr-primary);
     padding: 10px;
     margin: 10px;
     border: 2px solid var(--clr-primary);
     border-radius: 5px;
     cursor: pointer;
+    color: white;
+    outline: 0;
+    font-size: 1.25em;
 }
 
-
-button:active {
-    background-color: var(--clr-light);
-}
 
 .button-panel {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    margin-bottom: 30px;
 }
 
 .button-panel > button {
-    width: 100px;
+    display: flex;
+    flex-grow: 1;
+    width: 60%;
 }
 
 .traditional-toggle {
@@ -185,12 +180,22 @@ button:active {
     margin: 10px;
 }
 
-/* [type="checkbox"] {
+[type="checkbox"] {
     opacity: 0;
     position: absolute;
-} */
+}
 
+.active {
+    background-color: var(--clr-light);
+    color: var(--clr-primary);
+    outline: 0;
+    font-size: 1.25em;
+}
 
+.hsk {
+    justify-content: right;
+    padding-right: 20px;
+}
 
 span.custom-checkbox {
     --size: 0.75em;
@@ -205,7 +210,7 @@ span.custom-checkbox {
     transition: transform 200ms ease-in-out;
 }
 
-.list-item:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
+label:hover .custom-checkbox, [type="checkbox"]:focus + label .custom-checkbox {
     transform: scale(1.2);
     color: var(--clr-primary);
 }
@@ -230,7 +235,6 @@ span.custom-checkbox {
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 300mx ease-in-out;
-
 }
 
 .list-item::after {
@@ -269,6 +273,7 @@ textarea {
     height: 200px;
     resize: none;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .bottom-panel {
