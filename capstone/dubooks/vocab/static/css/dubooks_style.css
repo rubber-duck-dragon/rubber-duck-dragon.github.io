@@ -199,6 +199,11 @@ button {
     padding-right: 20px;
 }
 
+.pinyin {
+    display: flex;
+    flex-grow: 2;
+}
+
 span.custom-checkbox {
     --size: 0.75em;
     display: inline-block;
