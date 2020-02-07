@@ -1,0 +1,99 @@
+body {
+    background-image: url("morocco-blue.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    background-color: white;
+    align-items: center;
+    border: 3px solid #c2d6d6;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.15em;
+    
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Lobster Two", cursive;
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    font-size: 0.9em;
+    color: #666666;
+}
+
+.item-title {
+    font-family: "Poiret One", cursive;
+    color: #002633;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+.item-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    color: #666666;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.divider-middle {
+    max-width: 100px;
+}
+
+.divider-bottom {
+    margin-top: 40px;
+}
+
+.footer {
+    color: #002633;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 1.1em;
+}
+@media (min-width: 768px) {
+
+    .content {
+      /* margin: 10px auto; */
+      width: 100%;
+      /* padding: 20px;
+      border-radius: 10px; */
+    }
+
+@media (min-width: 1024px) {
+  
+    .header, #app, footer {
+      width: 100%;
+      /* margin: 10px auto; */
+      /* padding: 20px;
+      border-radius: 10px; */
+    }
+}
