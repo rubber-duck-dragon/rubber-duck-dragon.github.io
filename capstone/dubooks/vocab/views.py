@@ -17,7 +17,7 @@ def tokenize(request):
         txt = json.loads(request.body)["input_text"]
         frequency_list = {}
         high_frequency_list = {}
-        stop_words = ['.', '"', "'", "`", "，", ",", "。", ":", ";", "?", "!", "(", ")", "*", "/", "@", "-", "_000_", "「", "」", "、"]
+        stop_words = ['.', '"', "'", "`", "，", ",", "。", ":", ";", "?", "!", "(", ")", "*", "/", "@", "-", "_000_", "「", "」", "、", "‧"]
         
         MT = MMSEGTokenizer()
         tokenized = list(MT.cut(txt))
