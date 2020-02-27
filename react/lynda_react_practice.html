@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Project</title>
+        <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <style>
+            .heading {
+                color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+
+            const lakeList = [
+                {id: 1, name: "Echo Lake", trailhead: "Echo Lake"}, 
+                {id: 2, name: "Cascade", trailhead: "Bay View"}, 
+                ]
+
+            
+            const App = ({lakes}) => (
+                <ul>
+                    {lakes.map((lake, i) =>
+                        <li key={lake.id}>{lake.name} Trailhead: {lake.trailhead}</li>   
+                    )}
+                </ul>
+            )
+        
+
+            ReactDOM.render(
+                <App lakes={lakeList}/>,
+                document.getElementById("root")
+            );
+        </script>
+    </body>
+</html>
